@@ -32,13 +32,15 @@ Create a directory named "My-folder" on the desktop.
 ```
 mkdir my-folder
 ```
-![img](./img/Screenshot%202025-05-15%20182359.png)
+![image](https://github.com/user-attachments/assets/86f81423-f224-4b8b-bfd8-42868a5b4813)
+
 
 ## COMMAND AND OUTPUT
 ```
 rmdir my-folder
 ```
-![img](./img/Screenshot%202025-05-15%20182452.png)
+
+![Screenshot 2025-05-15 182452](https://github.com/user-attachments/assets/39d9ce31-e4b7-4696-88cc-24cae9b6342b)
 
 ## COMMAND AND OUTPUT
 ```
@@ -51,21 +53,23 @@ Too many employees watch it all the time
 ```
 dir Rose.txt
 ```
-![img](./img/Screenshot%202025-05-15%20182616.png)
+
+![Screenshot 2025-05-15 182616](https://github.com/user-attachments/assets/d7d3ff2a-ebcf-4137-af0d-433ce61324bf)
 
 ## COMMAND AND OUTPUT
 ```
 echo “hello world” > hello.txt
 type hello.txt
 ```
-![img](./img/Screenshot%202025-05-15%20182725.png)
+![Screenshot 2025-05-15 182725](https://github.com/user-attachments/assets/0c9ac47c-1ad8-4a18-ae46-2636b80e23a0)
 
 
 ## COMMAND AND OUTPUT
 ```
 copy hello.txt hello1.txt
 ```
-![img](./img/Screenshot%202025-05-15%20182831.png)
+![Screenshot 2025-05-15 182831](https://github.com/user-attachments/assets/2fb8991f-cc54-40a3-a6d0-773f7646f1ab)
+
 
 
 ## COMMAND AND OUTPUT
@@ -73,19 +77,19 @@ copy hello.txt hello1.txt
 del hello1.txt
 dir hello1.txt
 ```
-![img](./img/Screenshot%202025-05-15%20182917.png)
+![Screenshot 2025-05-15 182917](https://github.com/user-attachments/assets/55c01d72-a4d7-4795-ae70-cc9f7af6a317)
 
 ## COMMAND AND OUTPUT
 ```
 assoc | more
 ```
-![img](./img/Screenshot%202025-05-15%20182956.png)
+![Screenshot 2025-05-15 182956](https://github.com/user-attachments/assets/2f12209c-d688-448e-bfb6-fb56bc427007)
 
 ## COMMAND AND OUTPUT
 ```
 fc hello.txt Rose.txt
 ```
-![img](./img/Screenshot%202025-05-15%20183038.png)
+![Screenshot 2025-05-15 183038](https://github.com/user-attachments/assets/75b011aa-a2e7-4095-a745-63fb11beb8e4)
 
 ## COMMAND AND OUTPUT
 
@@ -96,7 +100,7 @@ Open Notepad with filename 1.bat and type the following batch scrip
     echo Hello, %name%!
     pause
 ```
-![img](./img/Screenshot%202025-05-15%20183258.png)
+![Screenshot 2025-05-15 183258](https://github.com/user-attachments/assets/4de4c4d8-abc5-4a6f-ac26-1bddd2eda41f)
 
 ## COMMAND AND OUTPUT
 
@@ -122,7 +126,7 @@ Open Notepad with filename 2.bat and type the following and execute 2.bat
     echo Thank you for using the odd number checker!
     pause
 ```
-![img](./img/Screenshot%202025-05-15%20183452.png)
+![Screenshot 2025-05-15 183452](https://github.com/user-attachments/assets/640bb547-ff15-4e9b-ad36-433ed6b04cd9)
 
 ## Exercise 2: Advanced Batch Scripting
 __1__.Create a batch file named on the desktop. The batch file need to have a variable assigned with a desired name for ex. name="John" and display as "Hello, John".
@@ -140,7 +144,8 @@ pause
 
 ### OUTPUT
 
-![hello name](./img/hello_name.png)
+
+![hello_name](https://github.com/user-attachments/assets/8748d80d-52b1-4608-958f-f631c6f9ad1e)
 
 
 __2__.Create a batch file  on the desktop that checks whether a user-input number is odd or not. The script should:
@@ -177,8 +182,10 @@ pause
 ```
 
 ### OUTPUT
+![check_odd](https://github.com/user-attachments/assets/b3c47388-b3d4-4d29-8238-cb4730e89d86)
 
-![check odd](./img/check_odd.png)
+
+
 
 
 
@@ -196,7 +203,9 @@ pause
 
 ### OUTPUT
 
-![loop display](./img/loopdisplay.png)
+![loopdisplay](https://github.com/user-attachments/assets/58cb1f3f-fffe-4738-a7b7-8a48a4ffb904)
+
+
 
 
 __4__.Write a batch script to check whether a file named sample.txt exists in the current directory. If the file exists, display the message sample.txt exists. Otherwise, display sample.txt does not exist. Pause the script at the end to view the result.
@@ -221,7 +230,9 @@ pause
 
 ### OUTPUT
 
-![check file](./img/check_file.png)
+
+![check_file](https://github.com/user-attachments/assets/7612b72a-5a67-461a-9910-ae55e072f49e)
+
 
 __5__.Write a batch script that displays a simple menu with three options:
 Say Hello – Displays the message Hello, World!
@@ -265,12 +276,13 @@ exit
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/2ded1d27-3cea-4812-a0f7-209e477c40fc)
 
-![newfile1](./img/newfile1.png)
+![image](https://github.com/user-attachments/assets/44c2dcbf-c5e3-409a-9aff-0e30865b0ed5)
 
-![newfile2](./img/newfile2.png)
+![image](https://github.com/user-attachments/assets/9706ff97-3d69-4f94-94a1-677f2f02f9b7)
 
-![newfile3](./img/newfile3.png)
+
 
 
 
